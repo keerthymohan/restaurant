@@ -1,0 +1,255 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#main{
+    background-image: url('https://thumbs.dreamstime.com/z/different-dried-fruit-bowl-black-rustic-background-different-dried-fruit-bowl-141901342.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bckg{
+    background-color: rgba(0, 0, 0, 0.489);
+    width: 100%;
+    height: 100vh;
+}
+#logo{
+    width: 300px;
+    height:150px;
+}
+.fluid-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 15px;
+}
+span{
+    color: yellow;
+}
+#welcome h1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+#welcome button{
+    margin-left: 120px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 4px;
+    background-color: rgba(255, 255, 0, 0.603);
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+}
+#welcome a{
+    text-decoration: none;
+}
+#special{
+    margin-top: 50px;
+}
+.spcl{
+    margin-left: 100px;
+    text-align: center;
+    
+} 
+.spcl img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#dishes h1{
+    margin-top: 80px;
+    text-align: center;
+}
+.spcl a{
+    text-decoration: none;
+    color: black;
+    font-style: 20px;
+}
+
+#aboutus{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
+    background-color: white;
+    padding: 10px;
+
+}
+#aboutcontain{
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgb(255, 127, 80);
+
+    padding: 50px;
+}
+#aboutus h2{
+    margin-top: 100px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#aboutus p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#imgs, #para{
+    padding: 10px;
+}
+.items{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.items img{
+    border-radius: 50%;
+}
+#detail{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 60px;
+}
+.menu-item {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.menu-item p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.menu-item h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #168362
+
+}
+
+.menu-item h2{
+    font-size: 30px;
+}
+#menu-details{
+    background-color: rgb(255, 127, 80);
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#menu-details button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 4px;
+    background-color: #168362;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 45px;
+    width: 200px;
+}
+#menu-details a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#menu{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+ 
+#review-details{
+    margin-top: 50px;
+}
+.re-detail{
+    margin-left:50px;
+    text-align: center;
+    
+} 
+.re-detail img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.re-detail h2,p{
+    margin-top: 15px;
+}
+#reviews h1{
+    margin-top: 50px;
+}
+#contact-details{
+    background-color: rgb(255, 127, 80);
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact{
+    margin-top: 80px;
+    background-color: white;
+     margin-left: 100px;
+    margin-right: 100px;
+    background-image: url('https://abunawaf.com/wp-content/uploads/2017/11/classy-restaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#back{
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.contact label{
+    color:white;
+}
+.contact input{
+    border: 1px solid black;
+    height: 30px;
+    width: 384px;
+    background-color: rgba(255, 127, 80, 0.463);
+}
+#cd{
+    padding: 45px 50px;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+.contact textarea{
+    background-color: rgba(255, 127, 80, 0.463);
+}
+#footer{
+    text-align: center;
+    margin-top: 50px;
+}
+#footer p{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: white;
+}
+#footer i{
+    margin-right: 34px;
+    color: white;
+
+}
+.spcl:hover{
+    transform: scale(1.5);
+    background-color: rgba(0, 0, 0, 0.128);
+}
+.menu-items:hover{
+    transform: scale(1.2);
+
+}
